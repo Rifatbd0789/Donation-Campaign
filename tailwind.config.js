@@ -4,6 +4,8 @@ export default {
   theme: {
     colors: {
       lal: "#FF444A",
+      sada: "#FFF",
+      kala: "Black",
     },
     extend: {},
   },
