@@ -4,9 +4,9 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 p-0 lg:px-16 ">
       <div className="flex-1">
-        <a className=" normal-case text-xl">
+        <NavLink to={"/"} className=" normal-case text-xl">
           <img src="/public/Logo.png" alt="" />
-        </a>
+        </NavLink>
       </div>
       <div className="">
         <ul className="flex gap-5">

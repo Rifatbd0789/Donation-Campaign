@@ -1,0 +1,27 @@
+const Showalldata = (data) => {
+  const { Title, Category, Picture, Card_bg, Text_bg, Category_bg } = data.data;
+  console.log(data);
+  return (
+    <button>
+      <div
+        className="card card-compact shadow-xl mx-auto"
+        style={{ backgroundColor: Card_bg }}
+      >
+        <figure>
+          <img src={Picture} alt="Shoes" />
+        </figure>
+        <div className="card-body" style={{ color: Text_bg }}>
+          <h2
+            className="card-title w-fit"
+            style={{ backgroundColor: Category_bg }}
+          >
+            {Category}
+          </h2>
+          <p>{Title}</p>
+        </div>
+      </div>
+    </button>
+  );
+};
+
+export default Showalldata;

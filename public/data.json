@@ -1,0 +1,134 @@
+[
+  {
+    "Picture": "https://i.ibb.co/92q6091/Health.png",
+    "Title": "Fitness Tracker",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052FF26",
+    "Text_bg": "#0052FF",
+    "Button_bg": "#0052FF",
+    "Description": "Track your daily fitness activities with this advanced fitness tracker.",
+    "Price": 79.99
+  },
+  {
+    "Picture": "https://i.ibb.co/R66Y20j/Education.png",
+    "Title": "Online Learning Platform",
+    "Category": "Education",
+    "Category_bg": "#FF444A33",
+    "Card_bg": "#FF444A26",
+    "Text_bg": "#FF444A",
+    "Button_bg": "#FF444A",
+    "Description": "Access a wide range of online courses and enhance your knowledge.",
+    "Price": 49.99
+  },
+  {
+    "Picture": "https://i.ibb.co/gWZSyrc/Clothing.png",
+    "Title": "Stylish T-Shirt",
+    "Category": "Clothing",
+    "Category_bg": "#79C23F33",
+    "Card_bg": "#79C23F26",
+    "Text_bg": "#79C23F",
+    "Button_bg": "#79C23F",
+    "Description": "Stay fashionable with this comfortable and stylish t-shirt.",
+    "Price": 29.99
+  },
+  {
+    "Picture": "https://i.ibb.co/0fRPX5R/Food.png",
+    "Title": "Organic Fruit Basket",
+    "Category": "Food",
+    "Category_bg": "#F8714733",
+    "Card_bg": "#F8714726",
+    "Text_bg": "#F87147",
+    "Button_bg": "#F87147",
+    "Description": "Enjoy a healthy assortment of organic fruits with this delightful basket.",
+    "Price": 39.99
+  },
+  {
+    "Picture": "https://i.ibb.co/0fRPX5R/Food.png",
+    "Title": "Gourmet Chocolate Box",
+    "Category": "Food",
+    "Category_bg": "#F8714733",
+    "Card_bg": "#F8714726",
+    "Text_bg": "#F87147",
+    "Button_bg": "#F87147",
+    "Description": "Indulge in premium chocolates with this exquisite gourmet box.",
+    "Price": 49.99
+  },
+  {
+    "Picture": "https://i.ibb.co/gWZSyrc/Clothing.png",
+    "Title": "Designer Jeans",
+    "Category": "Clothing",
+    "Category_bg": "#79C23F33",
+    "Card_bg": "#79C23F26",
+    "Text_bg": "#79C23F",
+    "Button_bg": "#79C23F",
+    "Description": "Upgrade your wardrobe with these stylish designer jeans.",
+    "Price": 69.99
+  },
+  {
+    "Picture": "https://i.ibb.co/R66Y20j/Education.png",
+    "Title": "Language Learning App",
+    "Category": "Education",
+    "Category_bg": "#FF444A33",
+    "Card_bg": "#FF444A26",
+    "Text_bg": "#FF444A",
+    "Button_bg": "#FF444A",
+    "Description": "Learn a new language with interactive lessons on this app.",
+    "Price": 19.99
+  },
+  {
+    "Picture": "https://i.ibb.co/92q6091/Health.png",
+    "Title": "Yoga Mat",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052FF26",
+    "Text_bg": "#0052FF",
+    "Button_bg": "#0052FF",
+    "Description": "Practice yoga comfortably with this high-quality yoga mat.",
+    "Price": 24.99
+  },
+  {
+    "Picture": "https://i.ibb.co/92q6091/Health.png",
+    "Title": "Digital Thermometer",
+    "Category": "Health",
+    "Category_bg": "#0052FF33",
+    "Card_bg": "#0052FF26",
+    "Text_bg": "#0052FF",
+    "Button_bg": "#0052FF",
+    "Description": "Monitor your health with this accurate digital thermometer.",
+    "Price": 14.99
+  },
+  {
+    "Picture": "https://i.ibb.co/R66Y20j/Education.png",
+    "Title": "Scientific Calculator",
+    "Category": "Education",
+    "Category_bg": "#FF444A33",
+    "Card_bg": "#FF444A26",
+    "Text_bg": "#FF444A",
+    "Button_bg": "#FF444A",
+    "Description": "Solve complex equations with ease using this scientific calculator.",
+    "Price": 34.99
+  },
+  {
+    "Picture": "https://i.ibb.co/gWZSyrc/Clothing.png",
+    "Title": "Leather Jacket",
+    "Category": "Clothing",
+    "Category_bg": "#79C23F33",
+    "Card_bg": "#79C23F26",
+    "Text_bg": "#79C23F",
+    "Button_bg": "#79C23F",
+    "Description": "Add a touch of style to your wardrobe with this classic leather jacket.",
+    "Price": 89.99
+  },
+  {
+    "Picture": "https://i.ibb.co/0fRPX5R/Food.png",
+    "Title": "Premium Coffee Beans",
+    "Category": "Food",
+    "Category_bg": "#F8714733",
+    "Card_bg": "#F8714726",
+    "Text_bg": "#F87147",
+    "Button_bg": "#F87147",
+    "Description": "Experience the rich flavor of premium coffee beans with this pack.",
+    "Price": 19.99
+  }
+]
