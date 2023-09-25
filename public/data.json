@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "Link2": "https://i.ibb.co/VjKxs0D/Rectangle-4284.png",
     "Link": "https://i.ibb.co/bJZs993/Health.png",
     "Picture": "https://i.ibb.co/92q6091/Health.png",
     "Title": "Fitness Tracker",
@@ -14,6 +15,7 @@
   },
   {
     "id": 2,
+    "Link2": "https://i.ibb.co/c2H1zGw/Rectangle-4287-1.png",
     "Link": "https://i.ibb.co/py8fvhT/Rectangle-4288.png",
     "Picture": "https://i.ibb.co/R66Y20j/Education.png",
     "Title": "Online Learning Platform",
@@ -27,6 +29,7 @@
   },
   {
     "id": 3,
+    "Link2": "https://i.ibb.co/WKTk7wj/Rectangle-4287.png",
     "Link": "https://i.ibb.co/JzKCv4K/Clothing.png",
     "Picture": "https://i.ibb.co/gWZSyrc/Clothing.png",
     "Title": "Stylish T-Shirt",
@@ -40,6 +43,7 @@
   },
   {
     "id": 4,
+    "Link2": "https://i.ibb.co/zSGbRb0/Rectangle-4287-2.png",
     "Link": "https://i.ibb.co/yshhNs2/Food.png",
     "Picture": "https://i.ibb.co/0fRPX5R/Food.png",
     "Title": "Organic Fruit Basket",
@@ -53,6 +57,7 @@
   },
   {
     "id": 5,
+    "Link2": "https://i.ibb.co/zSGbRb0/Rectangle-4287-2.png",
     "Link": "https://i.ibb.co/yshhNs2/Food.png",
     "Picture": "https://i.ibb.co/0fRPX5R/Food.png",
     "Title": "Gourmet Chocolate Box",
@@ -66,6 +71,7 @@
   },
   {
     "id": 6,
+    "Link2": "https://i.ibb.co/WKTk7wj/Rectangle-4287.png",
     "Link": "https://i.ibb.co/JzKCv4K/Clothing.png",
     "Picture": "https://i.ibb.co/gWZSyrc/Clothing.png",
     "Title": "Designer Jeans",
@@ -79,6 +85,7 @@
   },
   {
     "id": 7,
+    "Link2": "https://i.ibb.co/c2H1zGw/Rectangle-4287-1.png",
     "Link": "https://i.ibb.co/py8fvhT/Rectangle-4288.png",
     "Picture": "https://i.ibb.co/R66Y20j/Education.png",
     "Title": "Language Learning App",
@@ -92,6 +99,7 @@
   },
   {
     "id": 8,
+    "Link2": "https://i.ibb.co/VjKxs0D/Rectangle-4284.png",
     "Link": "https://i.ibb.co/bJZs993/Health.png",
     "Picture": "https://i.ibb.co/92q6091/Health.png",
     "Title": "Yoga Mat",
@@ -105,6 +113,7 @@
   },
   {
     "id": 9,
+    "Link2": "https://i.ibb.co/VjKxs0D/Rectangle-4284.png",
     "Link": "https://i.ibb.co/bJZs993/Health.png",
     "Picture": "https://i.ibb.co/92q6091/Health.png",
     "Title": "Digital Thermometer",
@@ -118,6 +127,7 @@
   },
   {
     "id": 10,
+    "Link2": "https://i.ibb.co/c2H1zGw/Rectangle-4287-1.png",
     "Link": "https://i.ibb.co/py8fvhT/Rectangle-4288.png",
     "Picture": "https://i.ibb.co/R66Y20j/Education.png",
     "Title": "Scientific Calculator",
@@ -131,6 +141,7 @@
   },
   {
     "id": 11,
+    "Link2": "https://i.ibb.co/WKTk7wj/Rectangle-4287.png",
     "Link": "https://i.ibb.co/JzKCv4K/Clothing.png",
     "Picture": "https://i.ibb.co/gWZSyrc/Clothing.png",
     "Title": "Leather Jacket",
@@ -144,6 +155,7 @@
   },
   {
     "id": 12,
+    "Link2": "https://i.ibb.co/zSGbRb0/Rectangle-4287-2.png",
     "Link": "https://i.ibb.co/yshhNs2/Food.png",
     "Picture": "https://i.ibb.co/0fRPX5R/Food.png",
     "Title": "Premium Coffee Beans",

@@ -21,6 +21,7 @@ const router = createBrowserRouter([
       {
         path: "/all",
         element: <Alldonation></Alldonation>,
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/stat",
