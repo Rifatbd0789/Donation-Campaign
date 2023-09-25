@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Showalldata = (data) => {
-  const { Title, Category, Picture, Card_bg, Text_bg, Category_bg } = data.data;
-  console.log(data);
+  const { id, Title, Category, Picture, Card_bg, Text_bg, Category_bg } =
+    data.data;
   return (
-    <button>
+    <Link to={`/details/${id}`}>
       <div
         className="card card-compact shadow-xl mx-auto"
         style={{ backgroundColor: Card_bg }}
@@ -17,10 +19,10 @@ const Showalldata = (data) => {
           >
             {Category}
           </h2>
-          <p>{Title}</p>
+          <p className="text-left">{Title}</p>
         </div>
       </div>
-    </button>
+    </Link>
   );
 };
 
