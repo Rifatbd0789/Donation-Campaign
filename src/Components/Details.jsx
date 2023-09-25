@@ -12,11 +12,11 @@ const Details = () => {
   const setDonate = () => {
     const duble = getLocalstorage();
     const double = duble.find((dub) => dub === id);
-    console.log(double);
     if (double) {
-      toast("Dublicate,please change");
+      toast("Already Donated! please select another one");
     } else {
       setLocalstorage(id);
+      toast("Successfully! Donated");
     }
   };
 
@@ -25,10 +25,10 @@ const Details = () => {
     <div>
       <div className="mx-auto my-5 w-4/6 ">
         <img src={Link} alt="" />
-        <div className="bg-[#0B0B0B80] h-[80px] w-4/6 absolute top-[460px]">
+        <div className="bg-[#0B0B0B80] h-[50px] md:h-[80px] w-4/6 absolute top-[220px] md:top-[282px] lg:top-[460px]">
           <button
             onClick={() => setDonate()}
-            className="bg-lal btn border-none ml-10 mt-4 text-sada hover:text-kala"
+            className="bg-lal md:bg-lal btn-sm md:btn border-none ml-10 mt-4 text-sada md:text-sada hover:text-kala"
           >
             Donate $ {Price}
           </button>

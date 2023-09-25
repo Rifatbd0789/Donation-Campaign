@@ -7,7 +7,7 @@ export default function ErrorPage() {
       <p>Sorry, an unexpected error has occurred.</p>
 
       <Link to={"/"}>
-        <button className="btn btn-primary mt-5">Go Home</button>
+        <button className="btn text-sada bg-lal mt-5">Go Home</button>
       </Link>
     </div>
   );
