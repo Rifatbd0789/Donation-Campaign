@@ -7,7 +7,7 @@ import Home from "./Components/Home";
 import Alldonation from "./Components/Alldonation";
 import Statistics from "./Components/Statistics";
 import Details from "./Components/Details";
-import ErrorPage from "./error";
+import ErrorPage from "./Components/Error";
 
 const router = createBrowserRouter([
   {

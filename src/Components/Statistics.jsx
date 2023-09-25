@@ -39,9 +39,9 @@ const Statistics = () => {
       </div>
       <div className="flex justify-center gap-2 mb-5">
         <p>Your Donation</p>
-        <div className="badge mr-8 badge-success bg-[#00C49F] gap-2"></div>
+        <div className="badge m-0 md:mr-8 badge-success bg-[#00C49F] "></div>
         <p>Remaining Donation</p>
-        <div className="badge badge-error bg-[#FF444A] gap-2"></div>
+        <div className="badge badge-error bg-[#FF444A]  gap-2"></div>
       </div>
     </div>
   );

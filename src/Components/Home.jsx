@@ -10,7 +10,6 @@ const Home = () => {
       setData(datas);
     }
   }, [datas]);
-  // console.log(sortData);
   const handleSubmit = (e) => {
     e.preventDefault();
     const input = e.target.search.value;
@@ -22,8 +21,6 @@ const Home = () => {
       setData(datas);
     }
   };
-
-  // setsortData(datas);
   return (
     <div>
       {/* banner section */}

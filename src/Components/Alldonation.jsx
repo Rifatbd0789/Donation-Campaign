@@ -7,7 +7,6 @@ const Alldonation = () => {
   const [donated, setDonated] = useState([]);
   const [showall, setshowall] = useState(4);
   const datas = useLoaderData();
-  // console.log(datas.length);
   useEffect(() => {
     const storedData = getLocalstorage();
     if (datas.length > 0) {

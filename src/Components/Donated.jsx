@@ -1,7 +1,6 @@
 const Donated = (data) => {
   const { Price, Title, Link2, Card_bg, Text_bg, Category_bg, Category } =
     data.data;
-  //   console.log(Price);
   return (
     <div>
       <div
