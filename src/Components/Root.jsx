@@ -4,9 +4,7 @@ import Navbar from "./Navbar";
 const Root = () => {
   return (
     <div>
-      <div className="">
-        <Navbar></Navbar>
-      </div>
+      <Navbar></Navbar>
       <Outlet></Outlet>
     </div>
   );

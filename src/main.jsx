@@ -7,11 +7,13 @@ import Home from "./Components/Home";
 import Alldonation from "./Components/Alldonation";
 import Statistics from "./Components/Statistics";
 import Details from "./Components/Details";
+import ErrorPage from "./error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",

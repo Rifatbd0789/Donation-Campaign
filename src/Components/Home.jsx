@@ -53,7 +53,7 @@ const Home = () => {
         </div>
       </div>
       {/* Data section */}
-      <div className="grid grid-cols-4 gap-4 mx-10 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-10 mb-16 mt-2">
         {alldata.map((data, idx) => (
           <Showalldata key={idx} data={data}></Showalldata>
         ))}
