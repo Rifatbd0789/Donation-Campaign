@@ -22,7 +22,7 @@ const Home = () => {
             <input
               type="text"
               placeholder="Search here"
-              className="input input-bordered w-full max-w-xs"
+              className="input w-full max-w-xs text-kala"
             />
             <button className="btn bg-lal text-sada">Search</button>
           </div>

@@ -1,5 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { getLocalstorage, setLocalstorage } from "../Utilities/localStorage";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Details = () => {
   const datas = useLoaderData();
@@ -8,7 +10,14 @@ const Details = () => {
   const clicked = datas.find((data) => data.id === idweb);
   const { id, Title, Link, Price, Description } = clicked;
   const setDonate = () => {
-    setLocalstorage(id);
+    const duble = getLocalstorage();
+    const double = duble.find((dub) => dub === id);
+    console.log(double);
+    if (double) {
+      toast("Dublicate,please change");
+    } else {
+      setLocalstorage(id);
+    }
   };
 
   getLocalstorage();
@@ -23,6 +32,7 @@ const Details = () => {
           >
             Donate $ {Price}
           </button>
+          <ToastContainer />
         </div>
       </div>
       <div className="mx-auto my-5 w-5/6">

@@ -24,7 +24,7 @@ const Alldonation = () => {
       </div>
       <div
         className={
-          (donated.length === showall && "hidden") || "flex justify-center"
+          (donated.length <= showall && "hidden") || "flex justify-center"
         }
       >
         <button
