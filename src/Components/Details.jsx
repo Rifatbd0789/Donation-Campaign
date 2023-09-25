@@ -1,18 +1,26 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { getLocalstorage, setLocalstorage } from "../Utilities/localStorage";
 
 const Details = () => {
   const datas = useLoaderData();
   const idobj = useParams();
   const idweb = parseInt(idobj.id);
   const clicked = datas.find((data) => data.id === idweb);
-  const { Title, Link, Price, Description } = clicked;
-  console.log(clicked);
+  const { id, Title, Link, Price, Description } = clicked;
+  const setDonate = () => {
+    setLocalstorage(id);
+  };
+
+  getLocalstorage();
   return (
     <div>
       <div className="mx-auto my-5 w-4/6 ">
         <img src={Link} alt="" />
         <div className="bg-[#0B0B0B80] h-[80px] w-4/6 absolute top-[460px]">
-          <button className="bg-lal btn border-none ml-10 mt-4 text-sada hover:text-kala">
+          <button
+            onClick={() => setDonate()}
+            className="bg-lal btn border-none ml-10 mt-4 text-sada hover:text-kala"
+          >
             Donate $ {Price}
           </button>
         </div>

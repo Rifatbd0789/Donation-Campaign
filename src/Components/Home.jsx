@@ -9,7 +9,8 @@ const Home = () => {
       <div
         className="hero bg-no-repeat w-full h-[500px] bg-cover"
         style={{
-          backgroundImage: "url(https://i.ibb.co/N2fV3DG/Rectangle-4288.png)",
+          backgroundImage:
+            "url(https://i.ibb.co/tPz3tK9/Rectangle-4281.png?fbclid=IwAR3m0yTFd50ROlPOwOU0nP3BmP0Nc8OK4Ep-1S2aZLD3DiEpJg4MI0du990)",
         }}
       >
         <div className="hero-overlay bg-sada bg-opacity-90"></div>
