@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 const Donated = (data) => {
-  const { Price, Title, Link2, Card_bg, Text_bg, Category_bg, Category } =
+  const { id, Price, Title, Link2, Card_bg, Text_bg, Category_bg, Category } =
     data.data;
   return (
     <div>
@@ -20,12 +21,14 @@ const Donated = (data) => {
           <h2 className="card-title ">{Title}</h2>
           <p style={{ color: Text_bg }}>$ {Price}</p>
           <div className="card-actions ">
-            <button
-              className="btn text-sada lg:text-sada btn-sm md:btn-sm lg:btn "
-              style={{ backgroundColor: Text_bg }}
-            >
-              View Details
-            </button>
+            <Link to={`/details/${id}`}>
+              <button
+                className="btn text-sada lg:text-sada btn-sm md:btn-sm lg:btn "
+                style={{ backgroundColor: Text_bg }}
+              >
+                View Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>
