@@ -1,8 +1,29 @@
 import { useLoaderData } from "react-router-dom";
 import Showalldata from "./Showalldata";
+import { useEffect, useState } from "react";
 
 const Home = () => {
-  const datas = useLoaderData();
+  const [alldata, setData] = useState([]);
+  let datas = useLoaderData();
+  useEffect(() => {
+    if (datas) {
+      setData(datas);
+    }
+  }, [datas]);
+  // console.log(sortData);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const input = e.target.search.value;
+    const filterData = datas.filter((item) => item.Category === input);
+    console.log(filterData);
+    if (filterData) {
+      setData(filterData);
+    } else {
+      setData(datas);
+    }
+  };
+
+  // setsortData(datas);
   return (
     <div>
       {/* banner section */}
@@ -19,18 +40,21 @@ const Home = () => {
             <h1 className="mb-5 text-5xl font-bold text-kala">
               I Grow By Helping People In Need
             </h1>
-            <input
-              type="text"
-              placeholder="Search here"
-              className="input w-full max-w-xs text-kala"
-            />
-            <button className="btn bg-lal text-sada">Search</button>
+            <form onSubmit={handleSubmit}>
+              <input
+                name="search"
+                type="text"
+                placeholder="Search here"
+                className="input w-full max-w-xs text-kala"
+              />
+              <button className="btn bg-lal text-sada">Search</button>
+            </form>
           </div>
         </div>
       </div>
       {/* Data section */}
       <div className="grid grid-cols-4 gap-4 mx-10 mt-5">
-        {datas.map((data, idx) => (
+        {alldata.map((data, idx) => (
           <Showalldata key={idx} data={data}></Showalldata>
         ))}
       </div>
