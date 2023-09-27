@@ -36,8 +36,8 @@ const Details = () => {
         </div>
       </div>
       <div className="mx-auto my-5 w-5/6">
-        <p className="font-bold">{Title}</p>
-        <p>{Description}</p>
+        <p className="text-2xl font-extrabold mt-10 mb-3">{Title}</p>
+        <p className="text-xs">{Description}</p>
       </div>
     </div>
   );

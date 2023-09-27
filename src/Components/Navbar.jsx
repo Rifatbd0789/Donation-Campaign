@@ -9,7 +9,7 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div className=" mt-5 md:mt-0">
-        <ul className="flex gap-5">
+        <ul className="flex gap-8">
           <li>
             <NavLink
               to={"/"}

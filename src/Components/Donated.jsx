@@ -13,17 +13,19 @@ const Donated = (data) => {
         </figure>
         <div className="card-body text-sm">
           <h2
-            className="card-title w-fit"
+            className=" w-fit px-2 rounded"
             style={{ backgroundColor: Category_bg, color: Text_bg }}
           >
             {Category}
           </h2>
-          <h2 className="card-title ">{Title}</h2>
-          <p style={{ color: Text_bg }}>$ {Price}</p>
+          <h2 className="card-title font-extrabold">{Title}</h2>
+          <p className="card-title " style={{ color: Text_bg }}>
+            $ {Price}
+          </p>
           <div className="card-actions ">
             <Link to={`/details/${id}`}>
               <button
-                className="btn text-sada lg:text-sada btn-sm md:btn-sm lg:btn "
+                className=" text-sada btn-sm md:btn-sm rounded"
                 style={{ backgroundColor: Text_bg }}
               >
                 View Details

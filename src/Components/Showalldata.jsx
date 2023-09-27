@@ -14,12 +14,12 @@ const Showalldata = (data) => {
         </figure>
         <div className="card-body" style={{ color: Text_bg }}>
           <h2
-            className="card-title w-fit"
+            className=" w-fit px-2 rounded"
             style={{ backgroundColor: Category_bg }}
           >
             {Category}
           </h2>
-          <p className="text-left">{Title}</p>
+          <p className="card-title text-left">{Title}</p>
         </div>
       </div>
     </Link>
